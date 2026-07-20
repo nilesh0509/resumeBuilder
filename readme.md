@@ -22,7 +22,7 @@
 <div align="center">
 <img src="image.png" width="800"/>
 <br><br>
-<img src="https://via.placeholder.com/800x400/8b5cf6/ffffff?text=Resume+Preview" width="800"/>
+<img src="image-1.png" width="800"/>
 </div>
 
 ---
