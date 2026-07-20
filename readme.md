@@ -1,4 +1,4 @@
-# 🚀 Smart Resume Builder with AI Suggestions
+# 🚀 Resume Builder with AI Suggestions
 
 <div align="center">
 
@@ -11,7 +11,7 @@
 
 ### Build professional resumes with AI-powered suggestions, multiple templates, and instant PDF export.
 
-[Live Demo](#) • [Report Bug](#) • [Request Feature](#)
+[Live Demo](#) 
 
 </div>
 
@@ -82,24 +82,88 @@
 # 📁 Project Structure
 
 ```text
-smart-resume-builder/
+resumeBuilder/
 │
 ├── backend/
 │   ├── .env
 │   ├── package.json
 │   ├── server.js
 │   ├── config/
+│   │   ├── db.js
+│   │   └── openai.js
 │   ├── models/
+│   │   ├── User.js
+│   │   └── Resume.js
 │   ├── controllers/
+│   │   ├── authController.js
+│   │   ├── resumeController.js
+│   │   └── aiController.js
 │   ├── routes/
+│   │   ├── authRoutes.js
+│   │   ├── resumeRoutes.js
+│   │   └── aiRoutes.js
 │   └── middleware/
+│       ├── auth.js
+│       ├── errorHandler.js
+│       └── validation.js
 │
 └── frontend/
     ├── .env
     ├── package.json
     ├── vite.config.js
     ├── tailwind.config.js
-    ├── src/
+    ├── index.html
+    └── src/
+        ├── main.jsx
+        ├── App.jsx
+        ├── index.css
+        ├── components/
+        │   ├── Navbar.jsx
+        │   ├── ProtectedRoute.jsx
+        │   ├── common/
+        │   │   ├── LoadingSpinner.jsx
+        │   │   ├── Particles.jsx
+        │   │   └── FloatingShapes.jsx
+        │   ├── ResumeForm/
+        │   │   ├── ResumeForm.jsx
+        │   │   ├── PersonalInfo.jsx
+        │   │   ├── Summary.jsx
+        │   │   ├── Education.jsx
+        │   │   ├── Experience.jsx
+        │   │   ├── Skills.jsx
+        │   │   ├── Projects.jsx
+        │   │   ├── Certifications.jsx
+        │   │   └── Achievements.jsx
+        │   ├── ResumePreview/
+        │   │   ├── Preview.jsx
+        │   │   ├── PDFExport.jsx
+        │   │   └── templates/
+        │   │       ├── Template1.jsx  # Modern
+        │   │       ├── Template2.jsx  # Minimal
+        │   │       ├── Template3.jsx  # Creative
+        │   │       ├── Template4.jsx  # Elegant
+        │   │       ├── Template5.jsx  # Compact
+        │   │       ├── Template6.jsx  # Executive
+        │   │       ├── Template7.jsx  # Tech
+        │   │       └── Template8.jsx  # Classic
+        │   └── AIAnalyzer.jsx
+        ├── pages/
+        │   ├── Login.jsx
+        │   ├── Register.jsx
+        │   ├── DashboardPage.jsx
+        │   ├── CreateResume.jsx
+        │   ├── EditResume.jsx
+        │   └── ViewResume.jsx
+        ├── context/
+        │   ├── AuthContext.jsx
+        │   └── ThemeContext.jsx
+        ├── services/
+        │   ├── api.js
+        │   ├── authService.js
+        │   ├── resumeService.js
+        │   └── aiService.js
+        └── hooks/
+            └── useAuth.js
 ```
 
 ---
@@ -165,7 +229,6 @@ MONGO_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/resume_builder
 
 JWT_SECRET=your_jwt_secret_key
 
-OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxx
 ```
 
 ## Frontend
@@ -284,7 +347,6 @@ Licensed under the MIT License.
 
 # 🙏 Acknowledgments
 
-- OpenAI
 - MongoDB Atlas
 - Vercel
 - Render
@@ -295,11 +357,11 @@ Licensed under the MIT License.
 
 # 📞 Contact
 
-**GitHub:** @yourusername
+**GitHub:** @nilesh0509
 
-**Email:** your.email@example.com
+**Email:** nilesh12105@gmail.com
 
-**LinkedIn:** Your Name
+**LinkedIn:** nilesh12105
 
 ---
 
@@ -307,6 +369,6 @@ Licensed under the MIT License.
 
 ⭐ If you found this project helpful, please give it a star!
 
-Made with ❤️ by **Your Name**
+Made with ❤️ by **Nilesh**
 
 </div>
