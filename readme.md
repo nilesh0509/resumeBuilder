@@ -22,7 +22,7 @@
 <div align="center">
 <img src="image.png" width="800"/>
 <br><br>
-<img src="image-1.png" width="800"/>
+<img src="![alt text](image-1.png)" width="800"/>
 </div>
 
 ---
