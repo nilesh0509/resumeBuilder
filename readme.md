@@ -20,7 +20,7 @@
 # 📸 Screenshots
 
 <div align="center">
-<img src="https://via.placeholder.com/800x400/6366f1/ffffff?text=Dashboard+View" width="800"/>
+<img src="![alt text](image.png)" width="800"/>
 <br><br>
 <img src="https://via.placeholder.com/800x400/8b5cf6/ffffff?text=Resume+Preview" width="800"/>
 </div>
@@ -116,9 +116,9 @@ smart-resume-builder/
 ## 1. Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/smart-resume-builder.git
+git clone https://github.com/nilesh0509/resumeBuilder.git
 
-cd smart-resume-builder
+cd resumeBuilder
 ```
 
 ## 2. Backend Setup
