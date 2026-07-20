@@ -20,7 +20,7 @@
 # 📸 Screenshots
 
 <div align="center">
-<img src="![alt text](image.png)" width="800"/>
+<img src="image.png" width="800"/>
 <br><br>
 <img src="https://via.placeholder.com/800x400/8b5cf6/ffffff?text=Resume+Preview" width="800"/>
 </div>
